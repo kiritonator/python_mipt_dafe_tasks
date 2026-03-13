@@ -28,7 +28,6 @@ def convert_to_sphere(
     ordinates: np.ndarray,
     applicates: np.ndarray,
 ) -> tuple[np.ndarray, np.ndarray, np.ndarray]:
-
     if (
         ordinates.shape != abscissa.shape
         or ordinates.shape != applicates.shape
